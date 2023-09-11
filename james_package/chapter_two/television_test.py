@@ -67,6 +67,6 @@ class that_i_have(unittest.TestCase):
         self.tv.turn_on_()
         self.tv.set_channel(34)
         self.tv.channel_down()
-        self.assertEquals(self.tv.get_channel(), 32)
+        self.assertEquals(self.tv.get_channel(), 33)
 
 
